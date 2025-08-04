@@ -1,4 +1,4 @@
-# 🖥️ Smart Ad Switcher
+# 🚛  Smart Ad Switcher
 
 A simple Python + Raspberry Pi demo that automatically switches digital ads based on **location, time, and weather**.  
 Built for showcasing intelligent ad-serving concepts without complex hardware setups.
@@ -6,7 +6,7 @@ Built for showcasing intelligent ad-serving concepts without complex hardware se
 
 
 📂 Project Structure
-
+```
 smart_ad_switcher/
 ├── ads/ # Contains all ad images
 │ ├── ice_cream_hot.jpg
@@ -16,6 +16,7 @@ smart_ad_switcher/
 ├── rules.json # Ad rules for weather/time/location
 ├── switcher.py # Main Python script
 └── README.md # Project documentation
+```
 
 
 Features
@@ -30,19 +31,16 @@ Features
  How to Run
 
 1. Install Dependencies
-  ```bash
-  pip install pillow requests 
+  ``` pip install pillow requests ```
 
 2. Run in Demo Mode
-bash
-python3 switcher.py --demo
+```python3 switcher.py --demo```
 Simulates random movement across areas.
 
 Displays corresponding ad images based on rules.json.
 
 3. Single Location Test
-bash
-python3 switcher.py --lat 43.65 --lon -79.38
+```python3 switcher.py --lat 43.65 --lon -79.38```
 
 
 Demo GIF
@@ -51,6 +49,7 @@ Demo GIF
 
  Rules (rules.json)
 Example rule format:
+```
 json
 
 [
@@ -62,14 +61,15 @@ json
     "area": ["park", "downtown"]
   }
 ]
+```
 Each ad is triggered by:
-Weather: hot | mild | cold
-Hour range: [start_hour, end_hour)
-Area: downtown | residential | park | university
+- Weather: hot | mild | cold
+- Hour range: [start_hour, end_hour]
+- Area: downtown | residential | park | university
 
  Future Ideas
-Integrate real GPS via Raspberry Pi and USB GPS dongle.
-Add camera or sensors for detecting traffic or people density.
-Future iteration could incorporate real-time traffic data, local event APIs, or even demographic data to make smarter decisions.
-Use AI/ML to predict best ad for a given route or event.
-Connect to cloud dashboards for analytics and ad reporting.
+- Integrate real GPS via Raspberry Pi and USB GPS dongle.
+- Add camera or sensors for detecting traffic or people density.
+- Future iteration could incorporate real-time traffic data, local event APIs, or even demographic data to make smarter decisions.
+- Use AI/ML to predict best ad for a given route or event.
+- Connect to cloud dashboards for analytics and ad reporting.
