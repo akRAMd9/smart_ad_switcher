@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Ice Cream",
+    "file": "ice_cream.jpg",
+    "weather": ["hot"],
+    "hour_range": [12, 18],
+    "area": ["park", "university"]
+  },
+  {
+    "name": "Banking",
+    "file": "banking.jpg",
+    "weather": ["mild", "cold", "hot"],
+    "hour_range": [9, 17],
+    "area": ["downtown_financial"]
+  },
+  {
+    "name": "Staples Back to School",
+    "file": "staples.jpg",
+    "weather": ["mild", "hot"],
+    "hour_range": [8, 15],
+    "area": ["university"]
+  },
+  {
+    "name": "Grocery Promo",
+    "file": "grocery.jpg",
+    "weather": ["cold", "mild", "hot"],
+    "hour_range": [7, 22],
+    "area": ["residential"]
+  }
+]
