@@ -85,9 +85,10 @@ def run_demo():
     print("=== Starting simulated route (ctrl-c to quit) ===")
     lat, lon = 43.65, -79.38
     while True:
-        # jitter position ±0.002°
-        lat += random.uniform(-0.05, 0.05)
-        lon += random.uniform(-0.05, 0.05)
+        # jitter position random 
+        lat = random.uniform(43.64, 43.67)    
+        lon = random.uniform(-79.41, -79.37)
+
 
         now      = datetime.datetime.now()
         weather  = get_weather(lat, lon)
