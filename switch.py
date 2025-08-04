@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 """
-Smart Ad-Switcher demo for Movia
-Author: <your name>  •  Date: 2025-08-03
-Run: python switcher.py --demo      (simulated route)
-     python switcher.py --lat 43.65 --lon -79.38   (single coord)
+Smart Ad-Switcher Demo for Movia
+Author: Akram • 2025-08-03
+
+Simulates a location-aware ad system using Python and Pillow.
+- Selects ads based on area, weather, and time.
+- Demo mode teleports randomly between 4 fake areas.
+
+Run:
+    python switcher.py --demo      (simulated route)
+    python switcher.py --lat 43.65 --lon -79.38   (single coord)
 """
 import json, time, random, argparse, datetime
 import pathlib, subprocess, sys, requests
