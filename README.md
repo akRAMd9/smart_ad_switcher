@@ -29,9 +29,9 @@ Features
 ---
  How to Run
 
- 1. Install Dependencies
-```bash
-pip install pillow requests
+1. Install Dependencies
+  ```bash
+  pip install pillow requests 
 
 2. Run in Demo Mode
 bash
