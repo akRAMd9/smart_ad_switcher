@@ -43,9 +43,12 @@ Displays corresponding ad images based on rules.json.
 ```python3 switcher.py --lat 43.65 --lon -79.38```
 
 
-Demo GIF
-(Insert GIF here later)
-![demo](demo/demo.gif)
+## 🎥 Demo
+
+[![Watch the Smart Ad-Switcher Demo](demo/demo_thumbnail.png)](demo/demo1.mp4)
+
+> Click the image above to watch the full demo (MP4).
+
 
  Rules (rules.json)
 Example rule format:
