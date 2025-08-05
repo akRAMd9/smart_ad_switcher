@@ -45,7 +45,7 @@ Displays corresponding ad images based on rules.json.
 
 ## 🎥 Demo
 
-[![Watch the Smart Ad-Switcher Demo](demo/demo_thumbnail.png)](demo/demo1.mp4)
+[![Watch the Smart Ad-Switcher Demo](demo/demo_thumbnail.png)](demo/demo.mp4)
 
 > Click the image above to watch the full demo (MP4).
 
