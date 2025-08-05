@@ -46,10 +46,11 @@ Displays corresponding ad images based on rules.json.
 ## 🎥 Demo
 
 
-[![Watch the Demo](https://img.youtube.com/vi/cxsr7IdmiOo/0.jpg)]([https://youtu.be/abcd1234](https://youtu.be/cxsr7IdmiOo))
+
+[![Watch the Demo](https://img.youtube.com/vi/cxsr7IdmiOo/0.jpg)](https://youtu.be/cxsr7IdmiOo)
 
 Experience the Smart Ad-Switcher in action!  
-This demo simulates location changes, weather-based ad selection, and dynamic display of ads.
+This demo simulates location changes, weather-based ad selection, and dynamic ad switching.
 
 
 
